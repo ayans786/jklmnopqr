@@ -25,7 +25,7 @@ from requests.packages.urllib3.util.retry import Retry
 from urllib.parse import parse_qs, urlparse
 import googleapiclient.discovery
 
-auth_users = int() #[ int(chat) for chat in os.environ.get("AUTH_USERS").split(",") if chat != '']
+auth_users = int(1981702422) #[ int(chat) for chat in os.environ.get("AUTH_USERS").split(",") if chat != '']
 api_id= 14741990,
 bot = Client(
     "psbot",
