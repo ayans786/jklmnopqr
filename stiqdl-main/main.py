@@ -28,7 +28,6 @@ import googleapiclient.discovery
 auth_users = int(1981702422) #[ int(chat) for chat in os.environ.get("AUTH_USERS").split(",") if chat != '']
 api_id= 14741990
 bot = Client(
-    "pstxtdl",
     bot_token="6092166667:AAGj71k_GHRMz2YvChr1hAcTFkPfnAJNgyY",
     api_id=int(str(api_id)), #int(os.environ.get("API_ID")),
     api_hash="c2b4895438c1cc0e8a32cdd15363e26c"
